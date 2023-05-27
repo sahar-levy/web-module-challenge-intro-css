@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid grey; */
+    max-width: 100%; /* every single element will never be bigger than parent */
+}
+
+/*General Styles*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {  /* a lot of font styles will live here */
+    font-size: 1.6rem;  /* 16px */
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 6rem;
+}
+
+section {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*Header Section Styles*/
+nav {
+    padding: 2% 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;  /*removes underline*/
+}
+
+nav a.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
+}
+
+nav a.orange:hover {
+    background-color: #FFC3A1;
+}
+
+nav a.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+}
+
+nav a.blue:hover {
+    background-color: #C0DBEA;
+}
+
+nav a.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+nav a.yellow:hover {
+    background-color: #FEE8B0;
+}
+
+/*title section or cta*/
+.cta {
+    position: relative;
+}
+
+.text, .img {
+    display: inline-block;
+}
+
+.img {
+    width: 30%;
+}
+
+img.round {
+    border-radius: 50%;
+}
+
+.text {
+    width: 55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top: 150px;
+}
+
+/*main*/
+div.main {
+    background-color: #DDB9A3;
+    color: #fff;
+    padding: 2%;
+    text-align: center;
+}
+
+.info div {
+    width: 30%;
+    margin: 5% auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bg-img {
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
+
+/*footer*/
+footer {
+    background-color: #F9E7DC;
+}
+
